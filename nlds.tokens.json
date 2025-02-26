@@ -1693,7 +1693,7 @@
           "hover": {
             "background-color": {
               "$type": "color",
-              "$value": "{nlds.color.gray.100}"
+              "$value": "{nlds.color.neutral.100}"
             }
           },
           "details": {
@@ -2763,13 +2763,13 @@
           "hover": {
             "background-color": {
               "$type": "color",
-              "$value": "{nlds.color.gray.200}"
+              "$value": "{nlds.color.neutral.200}"
             }
           },
           "active": {
             "background-color": {
               "$type": "color",
-              "$value": "{nlds.color.gray.300}"
+              "$value": "{nlds.color.neutral.300}"
             }
           }
         },
@@ -2808,18 +2808,18 @@
             "read-only": {
               "background-color": {
                 "$type": "color",
-                "$value": "{nlds.color.gray.200}"
+                "$value": "{nlds.color.neutral.200}"
               },
               "hover": {
                 "background-color": {
                   "$type": "color",
-                  "$value": "{nlds.color.gray.300}"
+                  "$value": "{nlds.color.neutral.300}"
                 }
               },
               "active": {
                 "background-color": {
                   "$type": "color",
-                  "$value": "{nlds.color.gray.400}"
+                  "$value": "{nlds.color.neutral.400}"
                 }
               }
             },
@@ -3834,7 +3834,7 @@
         "left": {
           "background-color": {
             "$type": "color",
-            "$value": "{nlds.color.gray.100}"
+            "$value": "{nlds.color.neutral.100}"
           },
           "padding-inline-end": {
             "$type": "spacing",
@@ -4042,7 +4042,7 @@
         "disabled": {
           "color": {
             "$type": "color",
-            "$value": "{nlds.color.gray.600}"
+            "$value": "{nlds.color.neutral.600}"
           }
         },
         "radio": {
@@ -4108,7 +4108,7 @@
         "disabled": {
           "color": {
             "$type": "color",
-            "$value": "{nlds.color.gray.600}"
+            "$value": "{nlds.color.neutral.600}"
           }
         }
       }
@@ -4820,7 +4820,7 @@
         "subheading": {
           "color": {
             "$type": "color",
-            "$value": "{nlds.color.gray.700}"
+            "$value": "{nlds.color.neutral.700}"
           },
           "font-weight": {
             "$type": "fontWeights",
@@ -4950,7 +4950,7 @@
         "disabled": {
           "color": {
             "$type": "color",
-            "$value": "{nlds.color.gray.500}"
+            "$value": "{nlds.color.neutral.500}"
           },
           "cursor": {
             "$type": "other",
@@ -5098,7 +5098,7 @@
         "active": {
           "background-color": {
             "$type": "color",
-            "$value": "{nlds.color.gray.100}"
+            "$value": "{nlds.color.neutral.100}"
           },
           "border-color": {
             "$type": "color",
@@ -5132,7 +5132,7 @@
         "hover": {
           "background-color": {
             "$type": "color",
-            "$value": "{nlds.color.gray.50}"
+            "$value": "{nlds.color.neutral.50}"
           },
           "border-color": {
             "$type": "color",
@@ -5635,7 +5635,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{nlds.color.gray.500}"
+              "$value": "{nlds.color.neutral.500}"
             }
           }
         },
@@ -5659,7 +5659,7 @@
             },
             "background-color": {
               "$type": "color",
-              "$value": "{nlds.color.gray.100}"
+              "$value": "{nlds.color.neutral.100}"
             },
             "border-color": {
               "$type": "color",
@@ -5883,7 +5883,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{nlds.color.gray.500}"
+              "$value": "{nlds.color.neutral.500}"
             }
           },
           "text-transform": {
@@ -5903,7 +5903,7 @@
           "current": {
             "background-color": {
               "$type": "color",
-              "$value": "{nlds.color.gray.100}"
+              "$value": "{nlds.color.neutral.100}"
             },
             "border-color": {
               "$type": "color",
@@ -7722,7 +7722,7 @@
         "disabled": {
           "background-color": {
             "$type": "color",
-            "$value": "{nlds.color.gray.50}"
+            "$value": "{nlds.color.neutral.50}"
           },
           "border-color": {
             "$type": "color",
@@ -7730,7 +7730,7 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{nlds.color.gray.500}"
+            "$value": "{nlds.color.neutral.500}"
           }
         },
         "error": {
@@ -7842,18 +7842,18 @@
         "track": {
           "background-color": {
             "$type": "color",
-            "$value": "{nlds.color.gray.500}"
+            "$value": "{nlds.color.neutral.500}"
           },
           "active": {
             "background-color": {
               "$type": "color",
-              "$value": "{nlds.color.gray.700}"
+              "$value": "{nlds.color.neutral.700}"
             }
           },
           "hover": {
             "background-color": {
               "$type": "color",
-              "$value": "{nlds.color.gray.600}"
+              "$value": "{nlds.color.neutral.600}"
             }
           },
           "focus-visible": {
@@ -7865,7 +7865,7 @@
           "disabled": {
             "background-color": {
               "$type": "color",
-              "$value": "{nlds.color.gray.300}"
+              "$value": "{nlds.color.neutral.300}"
             }
           },
           "checked": {
@@ -7894,7 +7894,7 @@
             "disabled": {
               "background-color": {
                 "$type": "color",
-                "$value": "{nlds.color.gray.300}"
+                "$value": "{nlds.color.neutral.300}"
               }
             }
           },
@@ -7933,7 +7933,7 @@
           "disabled": {
             "color": {
               "$type": "color",
-              "$value": "{nlds.color.gray.600}"
+              "$value": "{nlds.color.neutral.600}"
             }
           },
           "size": {
