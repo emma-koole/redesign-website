@@ -6127,24 +6127,22 @@
   "components/page-footer": {
     "nlds": {
       "page-footer": {
-        "spacing": {
-          "content": {
-            "padding-inline": {
-              "$type": "spacing",
-              "$value": "{nlds.space.inline.mouse}"
-            },
-            "block-start": {
-              "$type": "spacing",
-              "$value": "{nlds.space.block.dog}"
-            },
-            "block-end": {
-              "$type": "spacing",
-              "$value": "{nlds.space.block.pig}"
-            },
-            "column-gap": {
-              "$type": "spacing",
-              "$value": "{nlds.space.column.cat}"
-            }
+        "content": {
+          "padding-inline": {
+            "$type": "spacing",
+            "$value": "{nlds.space.inline.mouse}"
+          },
+          "block-start": {
+            "$type": "spacing",
+            "$value": "{nlds.space.block.dog}"
+          },
+          "block-end": {
+            "$type": "spacing",
+            "$value": "{nlds.space.block.pig}"
+          },
+          "column-gap": {
+            "$type": "spacing",
+            "$value": "{nlds.space.column.cat}"
           }
         },
         "background-color": {
@@ -6156,6 +6154,40 @@
             "$type": "color",
             "$value": "{nlds.color.white}"
           }
+        }
+      }
+    }
+  },
+  "components/page-header": {
+    "nlds": {
+      "page-header": {
+        "content": {
+          "padding-inline": {
+            "$type": "spacing",
+            "$value": "{nlds.space.inline.mouse}"
+          },
+          "column-gap": {
+            "$type": "spacing",
+            "$value": "{nlds.space.column.pig}"
+          }
+        },
+        "background-color": {
+          "$type": "color",
+          "$value": "{utrecht.document.background-color}"
+        },
+        "border-color": {
+          "$type": "color",
+          "$value": "{nlds.color.neutral.300}"
+        },
+        "text": {
+          "color": {
+            "$type": "color",
+            "$value": "{nlds.color.white}"
+          }
+        },
+        "border-width": {
+          "$type": "borderWidth",
+          "$value": "1px"
         }
       }
     }
@@ -8833,6 +8865,7 @@
       "components/ordered-list",
       "components/page-number-navigation",
       "components/page-footer",
+      "components/page-header",
       "components/paragraph",
       "components/pre-heading",
       "components/progress-list",
