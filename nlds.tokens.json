@@ -2760,9 +2760,29 @@
             "$type": "fontSizes",
             "$value": "{utrecht.heading-3.font-size}"
           },
-          "color": {
-            "$type": "color",
-            "$value": "{utrecht.heading.color}"
+          "default": {
+            "color": {
+              "$type": "color",
+              "$value": "{utrecht.heading.color}"
+            }
+          },
+          "active": {
+            "color": {
+              "$type": "color",
+              "$value": "{nlds.interaction.active.color}"
+            }
+          },
+          "hover": {
+            "color": {
+              "$type": "color",
+              "$value": "{nlds.interaction.hover.color}"
+            }
+          },
+          "focus": {
+            "color": {
+              "$type": "color",
+              "$value": "{nlds.color.paars.900}"
+            }
           }
         },
         "spacing": {
@@ -2775,6 +2795,32 @@
               "$type": "spacing",
               "$value": "{nlds.space.row.rat}"
             }
+          }
+        },
+        "arrow": {
+          "hover": {
+            "color": {
+              "$type": "color",
+              "$value": "{nlds.interaction.hover.color}"
+            }
+          },
+          "default": {
+            "color": {
+              "$type": "color",
+              "$value": "{nlds.color.paars.900}"
+            }
+          }
+        },
+        "focus": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{nlds.color.signal.focus}"
+          }
+        },
+        "metadata": {
+          "color": {
+            "$type": "color",
+            "$value": "{nlds.color.neutral.600}"
           }
         }
       }
@@ -6251,7 +6297,7 @@
         },
         "border-color": {
           "$type": "color",
-          "$value": "{nlds.color.neutral.300}"
+          "$value": "{nlds.container.border-color}"
         },
         "text": {
           "color": {
