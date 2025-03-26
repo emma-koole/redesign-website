@@ -2797,7 +2797,7 @@
             }
           }
         },
-        "arrow": {
+        "icon": {
           "hover": {
             "color": {
               "$type": "color",
@@ -5644,20 +5644,30 @@
     "nlds": {
       "navigation-bar": {
         "list-item": {
-          "background-color": {
-            "default": {
+          "default": {
+            "background-color": {
               "$type": "color",
               "$value": "{nlds.color.white}"
-            },
-            "active": {
+            }
+          },
+          "active": {
+            "background-color": {
               "$type": "color",
               "$value": "{nlds.color.paars.100}"
             },
-            "hover": {
+            "border-color": {
               "$type": "color",
               "$value": "{nlds.color.paars.600}"
-            },
-            "focus": {
+            }
+          },
+          "hover": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{nlds.color.paars.600}"
+            }
+          },
+          "focus": {
+            "background-color": {
               "$type": "color",
               "$value": "{nl.link.focus-visible.background-color}"
             }
@@ -5666,12 +5676,12 @@
             "color": {
               "$type": "color",
               "$value": "{utrecht.document.color}"
-            },
-            "inverse": {
-              "color": {
-                "$type": "color",
-                "$value": "{nlds.color.white}"
-              }
+            }
+          },
+          "content-inverse": {
+            "color": {
+              "$type": "color",
+              "$value": "{nlds.color.white}"
             }
           },
           "font-family": {
@@ -5691,7 +5701,7 @@
           "border-width": {
             "$type": "border",
             "$value": {
-              "color": "{nlds.color.paars.600}",
+              "color": "",
               "width": "4px",
               "style": "solid"
             }
@@ -5705,6 +5715,10 @@
           "$type": "color",
           "$value": "{nlds.color.white}"
         },
+        "border-color": {
+          "$type": "color",
+          "$value": "{nlds.container.border-color}"
+        },
         "line-height": {
           "$type": "lineHeights",
           "$value": "125%"
@@ -5712,7 +5726,7 @@
         "border-width": {
           "$type": "border",
           "$value": {
-            "color": "{nlds.color.neutral.300}",
+            "color": "",
             "width": "1px",
             "style": "solid"
           }
