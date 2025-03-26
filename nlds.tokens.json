@@ -2710,6 +2710,76 @@
       }
     }
   },
+  "components/card-as-link": {
+    "nlds": {
+      "card-as-link": {
+        "default": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{utrecht.document.background-color}"
+          },
+          "border-color": {
+            "$type": "color",
+            "$value": "{nlds.container.border-color}"
+          }
+        },
+        "hover": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{nlds.color.violet.100}"
+          },
+          "border-color": {
+            "$type": "color",
+            "$value": "{nlds.color.violet.400}"
+          }
+        },
+        "active": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{nlds.color.violet.50}"
+          },
+          "border-color": {
+            "$type": "color",
+            "$value": "{nlds.container.border-color}"
+          }
+        },
+        "heading": {
+          "font-family": {
+            "$type": "fontFamilies",
+            "$value": "{utrecht.heading.font-family}"
+          },
+          "font-weight": {
+            "$type": "fontWeights",
+            "$value": "{utrecht.heading.font-weight}"
+          },
+          "line-height": {
+            "$type": "lineHeights",
+            "$value": "{ams.heading.level.3.line-height}"
+          },
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{utrecht.heading-3.font-size}"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{utrecht.heading.color}"
+          }
+        },
+        "spacing": {
+          "content": {
+            "padding-inline": {
+              "$type": "spacing",
+              "$value": "{nlds.space.inline.rabbit}"
+            },
+            "row-gap": {
+              "$type": "spacing",
+              "$value": "{nlds.space.row.rat}"
+            }
+          }
+        }
+      }
+    }
+  },
   "components/case-card": {
     "todo": {
       "case-card": {
@@ -5524,6 +5594,106 @@
       }
     }
   },
+  "components/navigation-bar": {
+    "nlds": {
+      "navigation-bar": {
+        "list-item": {
+          "background-color": {
+            "default": {
+              "$type": "color",
+              "$value": "{nlds.color.white}"
+            },
+            "active": {
+              "$type": "color",
+              "$value": "{nlds.color.paars.100}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{nlds.color.paars.600}"
+            },
+            "focus": {
+              "$type": "color",
+              "$value": "{nl.link.focus-visible.background-color}"
+            }
+          },
+          "content": {
+            "color": {
+              "$type": "color",
+              "$value": "{utrecht.document.color}"
+            },
+            "inverse": {
+              "color": {
+                "$type": "color",
+                "$value": "{nlds.color.white}"
+              }
+            }
+          },
+          "font-family": {
+            "$type": "fontFamilies",
+            "$value": "{utrecht.button.font-family}"
+          },
+          "font-weight": {
+            "active": {
+              "$type": "fontWeights",
+              "$value": "{utrecht.button.font-weight}"
+            },
+            "inactive": {
+              "$type": "fontWeights",
+              "$value": "Regular"
+            }
+          },
+          "border-width": {
+            "$type": "border",
+            "$value": {
+              "color": "{nlds.color.paars.600}",
+              "width": "4px",
+              "style": "solid"
+            }
+          },
+          "border-radius": {
+            "$type": "borderRadius",
+            "$value": "{nlds.border-radius.sm}"
+          }
+        },
+        "background-color": {
+          "$type": "color",
+          "$value": "{nlds.color.white}"
+        },
+        "line-height": {
+          "$type": "lineHeights",
+          "$value": "125%"
+        },
+        "border-width": {
+          "$type": "border",
+          "$value": {
+            "color": "{nlds.color.neutral.300}",
+            "width": "1px",
+            "style": "solid"
+          }
+        }
+      },
+      "navigaton-bar": {
+        "list-item": {
+          "padding-inline": {
+            "$type": "spacing",
+            "$value": "{nlds.space.inline.mouse}"
+          },
+          "column-gap": {
+            "$type": "spacing",
+            "$value": "{nlds.space.column.snail}"
+          },
+          "padding-block": {
+            "$type": "spacing",
+            "$value": "{nlds.space.block.mouse}"
+          }
+        },
+        "row-gap": {
+          "$type": "spacing",
+          "$value": "{nlds.space.row.rat}"
+        }
+      }
+    }
+  },
   "components/ordered-list": {
     "utrecht": {
       "ordered-list": {
@@ -6020,6 +6190,78 @@
         "font-size": {
           "$type": "fontSizes",
           "$value": "{utrecht.document.font-size}"
+        }
+      }
+    }
+  },
+  "components/page-footer": {
+    "nlds": {
+      "page-footer": {
+        "content": {
+          "padding-inline": {
+            "$type": "spacing",
+            "$value": "{nlds.space.inline.mouse}"
+          },
+          "block-start": {
+            "$type": "spacing",
+            "$value": "{nlds.space.block.dog}"
+          },
+          "block-end": {
+            "$type": "spacing",
+            "$value": "{nlds.space.block.pig}"
+          },
+          "column-gap": {
+            "$type": "spacing",
+            "$value": "{nlds.space.column.cat}"
+          },
+          "row-gap": {
+            "$type": "spacing",
+            "$value": "{nlds.space.row.tiger}"
+          }
+        },
+        "background-color": {
+          "$type": "color",
+          "$value": "{nlds.color.paars.800}"
+        },
+        "text": {
+          "color": {
+            "$type": "color",
+            "$value": "{nlds.color.white}"
+          }
+        }
+      }
+    }
+  },
+  "components/page-header": {
+    "nlds": {
+      "page-header": {
+        "content": {
+          "padding-inline": {
+            "$type": "spacing",
+            "$value": "{nlds.space.inline.mouse}"
+          },
+          "column-gap": {
+            "$type": "spacing",
+            "$value": "{nlds.space.column.pig}"
+          }
+        },
+        "background-color": {
+          "$type": "color",
+          "$value": "{utrecht.document.background-color}"
+        },
+        "border-color": {
+          "$type": "color",
+          "$value": "{nlds.color.neutral.300}"
+        },
+        "text": {
+          "color": {
+            "$type": "color",
+            "$value": "{nlds.color.white}"
+          }
+        },
+        "border-width": {
+          "$type": "borderWidth",
+          "$value": "1px"
         }
       }
     }
@@ -8658,6 +8900,7 @@
       "components/breadcrumb-nav",
       "components/button",
       "components/button-group",
+      "components/card-as-link",
       "components/case-card",
       "components/checkbox",
       "components/checkbox-group",
@@ -8693,8 +8936,11 @@
       "components/mark",
       "components/modal-dialog",
       "components/number-badge",
+      "components/navigation-bar",
       "components/ordered-list",
       "components/page-number-navigation",
+      "components/page-footer",
+      "components/page-header",
       "components/paragraph",
       "components/pre-heading",
       "components/progress-list",
