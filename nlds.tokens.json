@@ -1602,7 +1602,7 @@
       }
     }
   },
-  "components/accordion/nlds.v1": {
+  "components/accordion/nlds": {
     "utrecht": {
       "accordion": {
         "panel": {
@@ -1658,60 +1658,6 @@
             "$type": "spacing",
             "$value": "{nlds.space.inline.mouse}"
           },
-          "background-color": {
-            "$type": "color",
-            "$value": "{nlds.color.neutral.50}"
-          },
-          "border-color": {
-            "$type": "color",
-            "$value": "transparent"
-          },
-          "color": {
-            "$type": "color",
-            "$value": "{nlds.interaction.color}"
-          },
-          "hover": {
-            "background-color": {
-              "$type": "color",
-              "$value": "{nlds.color.neutral.100}"
-            },
-            "border-color": {
-              "$type": "color",
-              "$value": "transparent"
-            },
-            "color": {
-              "$type": "color",
-              "$value": "{nlds.interaction.hover.color}"
-            }
-          },
-          "focus": {
-            "background-color": {
-              "$type": "color",
-              "$value": "{nlds.color.signal.focus}"
-            },
-            "border-color": {
-              "$type": "color",
-              "$value": "transparent"
-            },
-            "color": {
-              "$type": "color",
-              "$value": "{utrecht.focus.color}"
-            }
-          },
-          "active": {
-            "background-color": {
-              "$type": "color",
-              "$value": "{nlds.color.violet.200}"
-            },
-            "border-color": {
-              "$type": "color",
-              "$value": "transparent"
-            },
-            "color": {
-              "$type": "color",
-              "$value": "{nlds.interaction.active.color}"
-            }
-          },
           "border-width": {
             "$type": "borderWidth",
             "$value": "{nlds.border-width.sm}"
@@ -1720,46 +1666,10 @@
             "$type": "borderRadius",
             "$value": "{nlds.border-radius.sm}"
           },
-          "level": {
-            "help-wanted": {
-              "$type": "color",
-              "$value": "{nlds.color.oranje.accent}"
-            },
-            "community": {
-              "$type": "color",
-              "$value": "{nlds.color.paars.accent}"
-            },
-            "candidate": {
-              "$type": "color",
-              "$value": "{nlds.color.blauw.accent}"
-            },
-            "hall-of-fame": {
-              "$type": "color",
-              "$value": "{nlds.color.groen.accent}"
-            }
-          },
-          "level-icon": {
-            "help-wanted": {
-              "$type": "color",
-              "$value": "{nlds.color.oranje.800}"
-            },
-            "community": {
-              "$type": "color",
-              "$value": "{nlds.color.paars.800}"
-            },
-            "candidate": {
-              "$type": "color",
-              "$value": "{nlds.color.blauw.800}"
-            },
-            "hall-of-fame": {
-              "$type": "color",
-              "$value": "{nlds.color.groen.800}"
-            }
-          },
           "help-wanted": {
             "background-color": {
               "$type": "color",
-              "$value": "{nlds.color.neutral.50}"
+              "$value": "{nlds.color.oranje.accent}"
             },
             "border-color": {
               "$type": "color",
@@ -1767,12 +1677,12 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{nlds.interaction.color}"
+              "$value": "{nlds.color.oranje.800}"
             },
             "hover": {
               "background-color": {
                 "$type": "color",
-                "$value": "{nlds.color.neutral.100}"
+                "$value": "{nlds.color.oranje.400}"
               },
               "border-color": {
                 "$type": "color",
@@ -1780,7 +1690,7 @@
               },
               "color": {
                 "$type": "color",
-                "$value": "{nlds.interaction.hover.color}"
+                "$value": "{nlds.color.oranje.900}"
               }
             },
             "focus": {
@@ -1800,7 +1710,7 @@
             "active": {
               "background-color": {
                 "$type": "color",
-                "$value": "{nlds.color.violet.200}"
+                "$value": "{nlds.color.oranje.500}"
               },
               "border-color": {
                 "$type": "color",
@@ -1808,158 +1718,14 @@
               },
               "color": {
                 "$type": "color",
-                "$value": "{nlds.interaction.active.color}"
-              }
-            },
-            "level": {
-              "help-wanted": {
-                "$type": "color",
-                "$value": "{nlds.color.oranje.accent}"
-              },
-              "community": {
-                "$type": "color",
-                "$value": "{nlds.color.paars.accent}"
-              },
-              "candidate": {
-                "$type": "color",
-                "$value": "{nlds.color.blauw.accent}"
-              },
-              "hall-of-fame": {
-                "$type": "color",
-                "$value": "{nlds.color.groen.accent}"
-              }
-            },
-            "level-icon": {
-              "help-wanted": {
-                "$type": "color",
-                "$value": "{nlds.color.oranje.800}"
-              },
-              "community": {
-                "$type": "color",
-                "$value": "{nlds.color.paars.800}"
-              },
-              "candidate": {
-                "$type": "color",
-                "$value": "{nlds.color.blauw.800}"
-              },
-              "hall-of-fame": {
-                "$type": "color",
-                "$value": "{nlds.color.groen.800}"
+                "$value": "{nlds.color.oranje.900}"
               }
             }
-          }
-        }
-      }
-    },
-    "todo": {
-      "accordion": {
-        "section": {
-          "border-width": {
-            "$type": "borderWidth",
-            "$value": "{nlds.border-width.sm}"
           },
-          "border-color": {
-            "$type": "color",
-            "$value": "{nlds.line.border-color}"
-          }
-        },
-        "button": {
-          "font-size": {
-            "$type": "fontSizes",
-            "$value": "{utrecht.document.font-size}"
-          },
-          "line-height": {
-            "$type": "lineHeights",
-            "$value": "{utrecht.document.line-height}"
-          },
-          "font-family": {
-            "$type": "fontFamilies",
-            "$value": "{utrecht.document.font-family}"
-          },
-          "font-weight": {
-            "$type": "fontWeights",
-            "$value": "{nlds.document.strong.font-weight}"
-          }
-        },
-        "row-gap": {
-          "$type": "spacing",
-          "$value": "0"
-        }
-      }
-    }
-  },
-  "components/accordion/nlds.v2": {
-    "utrecht": {
-      "accordion": {
-        "panel": {
-          "border-color": {
-            "$type": "color",
-            "$value": "transparent"
-          },
-          "border-width": {
-            "$type": "borderWidth",
-            "$value": "{nlds.border-width.sm}"
-          },
-          "padding-block-end": {
-            "$type": "spacing",
-            "$value": "{nlds.space.block.rabbit}"
-          },
-          "padding-block-start": {
-            "$type": "spacing",
-            "$value": "{nlds.space.block.rabbit}"
-          },
-          "padding-inline-end": {
-            "$type": "spacing",
-            "$value": "{nlds.space.inline.mouse}"
-          },
-          "padding-inline-start": {
-            "$type": "spacing",
-            "$value": "{nlds.space.inline.mouse}"
-          }
-        },
-        "button": {
-          "gap": {
-            "$type": "spacing",
-            "$value": "{nlds.space.text.mouse}"
-          },
-          "icon": {
-            "size": {
-              "$type": "sizing",
-              "$value": "{nlds.icon.functional.size}"
-            }
-          },
-          "padding-block-end": {
-            "$type": "spacing",
-            "$value": "{nlds.space.block.snail}"
-          },
-          "padding-block-start": {
-            "$type": "spacing",
-            "$value": "{nlds.space.block.snail}"
-          },
-          "padding-inline-end": {
-            "$type": "spacing",
-            "$value": "{nlds.space.inline.mouse}"
-          },
-          "padding-inline-start": {
-            "$type": "spacing",
-            "$value": "{nlds.space.inline.mouse}"
-          },
-          "background-color": {
-            "$type": "color",
-            "$value": "{nlds.color.neutral.50}"
-          },
-          "border-color": {
-            "$type": "color",
-            "$value": "transparent"
-          },
-          "color": {
-            "$type": "color",
-            "$value": "{nlds.interaction.color}"
-          },
-          "hover": {
+          "community": {
             "background-color": {
               "$type": "color",
-              "$value": "{nlds.color.neutral.100}"
+              "$value": "{nlds.color.paars.accent}"
             },
             "border-color": {
               "$type": "color",
@@ -1967,13 +1733,55 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{nlds.interaction.hover.color}"
+              "$value": "{nlds.color.paars.800}"
+            },
+            "hover": {
+              "background-color": {
+                "$type": "color",
+                "$value": "{nlds.color.paars.400}"
+              },
+              "border-color": {
+                "$type": "color",
+                "$value": "transparent"
+              },
+              "color": {
+                "$type": "color",
+                "$value": "{nlds.color.paars.900}"
+              }
+            },
+            "focus": {
+              "background-color": {
+                "$type": "color",
+                "$value": "{nlds.color.signal.focus}"
+              },
+              "border-color": {
+                "$type": "color",
+                "$value": "transparent"
+              },
+              "color": {
+                "$type": "color",
+                "$value": "{utrecht.focus.color}"
+              }
+            },
+            "active": {
+              "background-color": {
+                "$type": "color",
+                "$value": "{nlds.color.paars.500}"
+              },
+              "border-color": {
+                "$type": "color",
+                "$value": "transparent"
+              },
+              "color": {
+                "$type": "color",
+                "$value": "{nlds.color.paars.900}"
+              }
             }
           },
-          "focus": {
+          "candidate": {
             "background-color": {
               "$type": "color",
-              "$value": "{nlds.color.signal.focus}"
+              "$value": "{nlds.color.blauw.accent}"
             },
             "border-color": {
               "$type": "color",
@@ -1981,13 +1789,55 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{utrecht.focus.color}"
+              "$value": "{nlds.color.blauw.800}"
+            },
+            "hover": {
+              "background-color": {
+                "$type": "color",
+                "$value": "{nlds.color.blauw.400}"
+              },
+              "border-color": {
+                "$type": "color",
+                "$value": "transparent"
+              },
+              "color": {
+                "$type": "color",
+                "$value": "{nlds.color.blauw.900}"
+              }
+            },
+            "focus": {
+              "background-color": {
+                "$type": "color",
+                "$value": "{nlds.color.signal.focus}"
+              },
+              "border-color": {
+                "$type": "color",
+                "$value": "transparent"
+              },
+              "color": {
+                "$type": "color",
+                "$value": "{utrecht.focus.color}"
+              }
+            },
+            "active": {
+              "background-color": {
+                "$type": "color",
+                "$value": "{nlds.color.blauw.500}"
+              },
+              "border-color": {
+                "$type": "color",
+                "$value": "transparent"
+              },
+              "color": {
+                "$type": "color",
+                "$value": "{nlds.color.blauw.900}"
+              }
             }
           },
-          "active": {
+          "hall-of-fame": {
             "background-color": {
               "$type": "color",
-              "$value": "{nlds.color.violet.200}"
+              "$value": "{nlds.color.groen.accent}"
             },
             "border-color": {
               "$type": "color",
@@ -1995,16 +1845,50 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{nlds.interaction.active.color}"
+              "$value": "{nlds.color.groen.800}"
+            },
+            "hover": {
+              "background-color": {
+                "$type": "color",
+                "$value": "{nlds.color.groen.400}"
+              },
+              "border-color": {
+                "$type": "color",
+                "$value": "transparent"
+              },
+              "color": {
+                "$type": "color",
+                "$value": "{nlds.color.groen.900}"
+              }
+            },
+            "focus": {
+              "background-color": {
+                "$type": "color",
+                "$value": "{nlds.color.signal.focus}"
+              },
+              "border-color": {
+                "$type": "color",
+                "$value": "transparent"
+              },
+              "color": {
+                "$type": "color",
+                "$value": "{utrecht.focus.color}"
+              }
+            },
+            "active": {
+              "background-color": {
+                "$type": "color",
+                "$value": "{nlds.color.groen.500}"
+              },
+              "border-color": {
+                "$type": "color",
+                "$value": "transparent"
+              },
+              "color": {
+                "$type": "color",
+                "$value": "{nlds.color.groen.900}"
+              }
             }
-          },
-          "border-width": {
-            "$type": "borderWidth",
-            "$value": "{nlds.border-width.sm}"
-          },
-          "border-radius": {
-            "$type": "borderRadius",
-            "$value": "{nlds.border-radius.sm}"
           }
         }
       }
@@ -9452,8 +9336,7 @@
       "brand",
       "common",
       "components/accordion/utrecht",
-      "components/accordion/nlds.v1",
-      "components/accordion/nlds.v2",
+      "components/accordion/nlds",
       "components/action",
       "components/alert",
       "components/avatar",
