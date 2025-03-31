@@ -1505,62 +1505,6 @@
           "border-radius": {
             "$type": "borderRadius",
             "$value": "{nlds.border-radius.sm}"
-          },
-          "help-wanted": {
-            "background-color": {
-              "$type": "color",
-              "$value": "{nlds.color.oranje.100}"
-            },
-            "border-color": {
-              "$type": "color",
-              "$value": "transparent"
-            },
-            "color": {
-              "$type": "color",
-              "$value": "{nlds.color.oranje.900}"
-            },
-            "hover": {
-              "background-color": {
-                "$type": "color",
-                "$value": "{nlds.color.oranje.200}"
-              },
-              "border-color": {
-                "$type": "color",
-                "$value": "transparent"
-              },
-              "color": {
-                "$type": "color",
-                "$value": "{nlds.interaction.hover.color}"
-              }
-            },
-            "focus": {
-              "background-color": {
-                "$type": "color",
-                "$value": "{nlds.color.signal.focus}"
-              },
-              "border-color": {
-                "$type": "color",
-                "$value": "transparent"
-              },
-              "color": {
-                "$type": "color",
-                "$value": "{utrecht.focus.color}"
-              }
-            },
-            "active": {
-              "background-color": {
-                "$type": "color",
-                "$value": "{nlds.color.violet.200}"
-              },
-              "border-color": {
-                "$type": "color",
-                "$value": "{nlds.interaction.color}"
-              },
-              "color": {
-                "$type": "color",
-                "$value": "{nlds.interaction.active.color}"
-              }
-            }
           }
         }
       }
@@ -1603,7 +1547,7 @@
     }
   },
   "components/accordion/nlds": {
-    "utrecht": {
+    "nlds": {
       "accordion": {
         "panel": {
           "border-color": {
@@ -1889,23 +1833,7 @@
                 "$value": "{nlds.color.groen.900}"
               }
             }
-          }
-        }
-      }
-    },
-    "todo": {
-      "accordion": {
-        "section": {
-          "border-width": {
-            "$type": "borderWidth",
-            "$value": "{nlds.border-width.sm}"
           },
-          "border-color": {
-            "$type": "color",
-            "$value": "{nlds.line.border-color}"
-          }
-        },
-        "button": {
           "font-size": {
             "$type": "fontSizes",
             "$value": "{utrecht.document.font-size}"
@@ -1921,6 +1849,16 @@
           "font-weight": {
             "$type": "fontWeights",
             "$value": "{nlds.document.strong.font-weight}"
+          }
+        },
+        "section": {
+          "border-width": {
+            "$type": "borderWidth",
+            "$value": "{nlds.border-width.sm}"
+          },
+          "border-color": {
+            "$type": "color",
+            "$value": "{nlds.line.border-color}"
           }
         },
         "row-gap": {
