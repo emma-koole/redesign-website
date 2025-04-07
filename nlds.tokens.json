@@ -1552,7 +1552,11 @@
         "panel": {
           "border-color": {
             "$type": "color",
-            "$value": "transparent"
+            "$value": "{nlds.line.border-color}"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{nlds.color.neutral.100}"
           },
           "border-width": {
             "$type": "borderWidth",
@@ -1858,7 +1862,7 @@
           },
           "border-color": {
             "$type": "color",
-            "$value": "{nlds.line.border-color}"
+            "$value": "{nlds.color.neutral.accent}"
           }
         },
         "row-gap": {
