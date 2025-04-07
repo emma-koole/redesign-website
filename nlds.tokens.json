@@ -8961,76 +8961,24 @@
     }
   },
   "components/task-list": {
-    "todo": {
+    "utrecht": {
       "task-list": {
-        "color": {
-          "$type": "color",
-          "$value": "{utrecht.document.color}"
-        },
-        "marker": {
-          "checked": {
-            "color": {
-              "$type": "color",
-              "$value": "{nlds.color.white}"
-            },
-            "background-color": {
-              "$type": "color",
-              "$value": "{nlds.feedback.positive.color}"
-            },
-            "border-color": {
-              "$type": "color",
-              "$value": "transparent"
-            }
-          },
-          "size": {
-            "$type": "sizing",
-            "$value": "{nlds.size.xs}"
-          },
-          "icon": {
-            "size": {
-              "$type": "sizing",
-              "$value": "{nlds.size.icon.sm}"
-            }
-          },
-          "border-width": {
-            "$type": "borderWidth",
-            "$value": "{utrecht.form-control.border-width}"
-          },
-          "not-checked": {
-            "background-color": {
-              "$type": "color",
-              "$value": "{utrecht.form-control.read-only.background-color}"
-            },
-            "border-color": {
-              "$type": "color",
-              "$value": "{utrecht.form-control.read-only.border-color}"
-            }
-          },
-          "border-radius": {
-            "$type": "borderRadius",
-            "$value": "0px"
-          }
-        },
-        "font-family": {
-          "$type": "fontFamilies",
-          "$value": "{utrecht.document.font-family}"
-        },
         "font-size": {
           "$type": "fontSizes",
           "$value": "{utrecht.document.font-size}"
-        },
-        "font-weight": {
-          "$type": "fontWeights",
-          "$value": "{utrecht.document.font-weight}"
         },
         "line-height": {
           "$type": "lineHeights",
           "$value": "{utrecht.document.line-height}"
         },
+        "padding-inline-start": {
+          "$type": "spacing",
+          "$value": "{nlds.space.inline.mouse}"
+        },
         "item": {
-          "column-gap": {
+          "padding-inline-start": {
             "$type": "spacing",
-            "$value": "{nlds.space.column.mouse}"
+            "$value": "{nlds.space.inline.beetle}"
           },
           "margin-block-end": {
             "$type": "spacing",
@@ -9041,9 +8989,21 @@
             "$value": "{nlds.space.block.ant}"
           }
         },
-        "row-gap": {
-          "$type": "spacing",
-          "$value": "{nlds.space.row.rat}"
+        "marker": {
+          "color": {
+            "$type": "color",
+            "$value": "{utrecht.document.color}"
+          }
+        },
+        "text-color": {
+          "$type": "color",
+          "$value": "{utrecht.document.color}"
+        },
+        "check": {
+          "color": {
+            "$type": "color",
+            "$value": "{nlds.color.signal.groen.500}"
+          }
         }
       }
     }
