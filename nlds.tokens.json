@@ -1557,63 +1557,9 @@
           "color": {
             "$type": "color",
             "$value": "{nlds.color.neutral.100}"
-          },
-          "border-width": {
-            "$type": "borderWidth",
-            "$value": "{nlds.border-width.sm}"
-          },
-          "padding-block-end": {
-            "$type": "spacing",
-            "$value": "{nlds.space.block.rabbit}"
-          },
-          "padding-block-start": {
-            "$type": "spacing",
-            "$value": "{nlds.space.block.rabbit}"
-          },
-          "padding-inline-end": {
-            "$type": "spacing",
-            "$value": "{nlds.space.inline.mouse}"
-          },
-          "padding-inline-start": {
-            "$type": "spacing",
-            "$value": "{nlds.space.inline.mouse}"
           }
         },
         "button": {
-          "gap": {
-            "$type": "spacing",
-            "$value": "{nlds.space.text.mouse}"
-          },
-          "icon": {
-            "size": {
-              "$type": "sizing",
-              "$value": "{nlds.icon.functional.size}"
-            }
-          },
-          "padding-block-end": {
-            "$type": "spacing",
-            "$value": "{nlds.space.block.snail}"
-          },
-          "padding-block-start": {
-            "$type": "spacing",
-            "$value": "{nlds.space.block.snail}"
-          },
-          "padding-inline-end": {
-            "$type": "spacing",
-            "$value": "{nlds.space.inline.mouse}"
-          },
-          "padding-inline-start": {
-            "$type": "spacing",
-            "$value": "{nlds.space.inline.mouse}"
-          },
-          "border-width": {
-            "$type": "borderWidth",
-            "$value": "{nlds.border-width.sm}"
-          },
-          "border-radius": {
-            "$type": "borderRadius",
-            "$value": "{nlds.border-radius.sm}"
-          },
           "help-wanted": {
             "background-color": {
               "$type": "color",
@@ -1868,6 +1814,68 @@
         "row-gap": {
           "$type": "spacing",
           "$value": "0"
+        }
+      }
+    },
+    "utrecht": {
+      "accordion": {
+        "panel": {
+          "border-width": {
+            "$type": "borderWidth",
+            "$value": "{nlds.border-width.sm}"
+          },
+          "padding-block-end": {
+            "$type": "spacing",
+            "$value": "{nlds.space.block.rabbit}"
+          },
+          "padding-block-start": {
+            "$type": "spacing",
+            "$value": "{nlds.space.block.rabbit}"
+          },
+          "padding-inline-end": {
+            "$type": "spacing",
+            "$value": "{nlds.space.inline.mouse}"
+          },
+          "padding-inline-start": {
+            "$type": "spacing",
+            "$value": "{nlds.space.inline.mouse}"
+          }
+        },
+        "button": {
+          "gap": {
+            "$type": "spacing",
+            "$value": "{nlds.space.text.mouse}"
+          },
+          "icon": {
+            "size": {
+              "$type": "sizing",
+              "$value": "{nlds.icon.functional.size}"
+            }
+          },
+          "padding-block-end": {
+            "$type": "spacing",
+            "$value": "{nlds.space.block.snail}"
+          },
+          "padding-block-start": {
+            "$type": "spacing",
+            "$value": "{nlds.space.block.snail}"
+          },
+          "padding-inline-end": {
+            "$type": "spacing",
+            "$value": "{nlds.space.inline.mouse}"
+          },
+          "padding-inline-start": {
+            "$type": "spacing",
+            "$value": "{nlds.space.inline.mouse}"
+          },
+          "border-width": {
+            "$type": "borderWidth",
+            "$value": "{nlds.border-width.sm}"
+          },
+          "border-radius": {
+            "$type": "borderRadius",
+            "$value": "{nlds.border-radius.sm}"
+          }
         }
       }
     }
