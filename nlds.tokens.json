@@ -8988,21 +8988,29 @@
             "$type": "spacing",
             "$value": "{nlds.space.block.ant}"
           }
-        },
+        }
+      }
+    },
+    "nlds": {
+      "task-list": {
         "marker": {
           "color": {
             "$type": "color",
             "$value": "{utrecht.document.color}"
           }
         },
-        "text-color": {
+        "color": {
           "$type": "color",
           "$value": "{utrecht.document.color}"
         },
-        "check": {
+        "icon": {
           "color": {
             "$type": "color",
             "$value": "{nlds.color.signal.groen.500}"
+          },
+          "size": {
+            "$type": "sizing",
+            "$value": "{nlds.size.icon.md}"
           }
         }
       }
