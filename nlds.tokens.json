@@ -4758,6 +4758,152 @@
       }
     }
   },
+  "components/data-summary": {
+    "utrecht": {
+      "data-list": {
+        "item-key": {
+          "font-weight": {
+            "$type": "fontWeights",
+            "$value": "{nlds.document.strong.font-weight}"
+          },
+          "row": {
+            "padding-block-end": {
+              "$type": "spacing",
+              "$value": "{nlds.space.block.snail}"
+            },
+            "padding-block-start": {
+              "$type": "spacing",
+              "$value": "{nlds.space.block.snail}"
+            },
+            "padding-inline-end": {
+              "$type": "spacing",
+              "$value": "{nlds.space.inline.mouse}"
+            },
+            "padding-inline-start": {
+              "$type": "spacing",
+              "$value": "0px"
+            }
+          },
+          "padding-block-end": {
+            "$type": "spacing",
+            "$value": "{nlds.space.block.ant}"
+          },
+          "padding-block-start": {
+            "$type": "spacing",
+            "$value": "{nlds.space.block.snail}"
+          },
+          "padding-inline-end": {
+            "$type": "spacing",
+            "$value": "0px"
+          },
+          "padding-inline-start": {
+            "$type": "spacing",
+            "$value": "0px"
+          }
+        },
+        "font-family": {
+          "$type": "fontFamilies",
+          "$value": "{utrecht.document.font-family}"
+        },
+        "item-value": {
+          "font-weight": {
+            "$type": "fontWeights",
+            "$value": "{utrecht.document.font-weight}"
+          }
+        },
+        "rows": {
+          "padding-block-end": {
+            "$type": "spacing",
+            "$value": "{nlds.space.block.snail}"
+          },
+          "padding-block-start": {
+            "$type": "spacing",
+            "$value": "{nlds.space.block.snail}"
+          },
+          "padding-inline-end": {
+            "$type": "spacing",
+            "$value": "0px"
+          },
+          "padding-inline-start": {
+            "$type": "spacing",
+            "$value": "0px"
+          }
+        },
+        "padding-block-end": {
+          "$type": "spacing",
+          "$value": "{nlds.space.block.snail}"
+        },
+        "padding-block-start": {
+          "$type": "spacing",
+          "$value": "{nlds.space.block.ant}"
+        },
+        "padding-inline-end": {
+          "$type": "spacing",
+          "$value": "0px"
+        },
+        "padding-inline-start": {
+          "$type": "spacing",
+          "$value": "0px"
+        },
+        "border-width": {
+          "$type": "borderWidth",
+          "$value": "{nlds.border-width.sm}"
+        },
+        "border-color": {
+          "$type": "color",
+          "$value": "{nlds.line.border-color}"
+        },
+        "color": {
+          "$type": "color",
+          "$value": "{utrecht.document.color}"
+        },
+        "font-size": {
+          "$type": "fontSizes",
+          "$value": "{utrecht.document.font-size}"
+        },
+        "line-height": {
+          "$type": "lineHeights",
+          "$value": "{utrecht.document.line-height}"
+        },
+        "item-action": {
+          "row": {
+            "padding-block-end": {
+              "$type": "spacing",
+              "$value": "{nlds.space.block.snail}"
+            },
+            "padding-block-start": {
+              "$type": "spacing",
+              "$value": "{nlds.space.block.snail}"
+            },
+            "padding-inline-end": {
+              "$type": "spacing",
+              "$value": "0px"
+            },
+            "padding-inline-start": {
+              "$type": "spacing",
+              "$value": "{nlds.space.inline.mouse}"
+            }
+          },
+          "padding-block-end": {
+            "$type": "spacing",
+            "$value": "{nlds.space.block.snail}"
+          },
+          "padding-block-start": {
+            "$type": "spacing",
+            "$value": "{nlds.space.block.snail}"
+          },
+          "padding-inline-end": {
+            "$type": "spacing",
+            "$value": "{nlds.space.inline.mouse}"
+          },
+          "padding-inline-start": {
+            "$type": "spacing",
+            "$value": "0px"
+          }
+        }
+      }
+    }
+  },
   "components/heading": {
     "nl": {
       "heading": {
@@ -9307,6 +9453,7 @@
       "components/form-field-option-label",
       "components/form-field-radio-option",
       "components/form-summary",
+      "components/data-summary",
       "components/heading",
       "components/heading-1",
       "components/heading-2",
