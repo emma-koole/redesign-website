@@ -5524,6 +5524,108 @@
       }
     }
   },
+  "components/level-badge": {
+    "nlds": {
+      "level-badge": {
+        "font-size": {
+          "$type": "fontSizes",
+          "$value": "{nlds.typography.font-size.sm}"
+        },
+        "line-height": {
+          "$type": "lineHeights",
+          "$value": "{utrecht.document.line-height}"
+        },
+        "font-weight": {
+          "$type": "fontWeights",
+          "$value": "{nlds.document.strong.font-weight}"
+        },
+        "font-family": {
+          "$type": "fontFamilies",
+          "$value": "{utrecht.document.font-family}"
+        },
+        "border-width": {
+          "$type": "borderWidth",
+          "$value": "{nlds.border-width.sm}"
+        },
+        "border-radius": {
+          "$type": "borderRadius",
+          "$value": "{nlds.border-radius.sm}"
+        },
+        "padding-inline": {
+          "$type": "spacing",
+          "$value": "{nlds.space.inline.ant}"
+        },
+        "padding-block": {
+          "$type": "spacing",
+          "$value": "{nlds.space.block.flea}"
+        },
+        "help-wanted": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{nlds.color.oranje.accent}"
+          },
+          "border-color": {
+            "$type": "color",
+            "$value": "transparent"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{nlds.color.oranje.900}"
+          }
+        },
+        "community": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{nlds.color.paars.accent}"
+          },
+          "border-color": {
+            "$type": "color",
+            "$value": "transparent"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{nlds.color.paars.900}"
+          }
+        },
+        "candidate": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{nlds.color.blauw.accent}"
+          },
+          "border-color": {
+            "$type": "color",
+            "$value": "transparent"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{nlds.color.blauw.900}"
+          }
+        },
+        "hall-of-fame": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{nlds.color.groen.accent}"
+          },
+          "border-color": {
+            "$type": "color",
+            "$value": "transparent"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{nlds.color.groen.900}"
+          }
+        },
+        "icon-size": {
+          "$type": "sizing",
+          "$value": "{nlds.size.icon.sm}"
+        },
+        "gap": {
+          "$type": "spacing",
+          "$value": "{nlds.space.block.ant}"
+        }
+      }
+    }
+  },
   "components/link": {
     "nl": {
       "link": {
@@ -8465,7 +8567,7 @@
     }
   },
   "components/nlds/status-badge": {
-    "todo": {
+    "nlds": {
       "status-badge": {
         "font-size": {
           "$type": "fontSizes",
@@ -8482,11 +8584,7 @@
         "font-family": {
           "$type": "fontFamilies",
           "$value": "{utrecht.document.font-family}"
-        }
-      }
-    },
-    "nlds": {
-      "status-badge": {
+        },
         "border-width": {
           "$type": "borderWidth",
           "$value": "{nlds.border-width.sm}"
@@ -9560,6 +9658,7 @@
       "components/heading-group",
       "components/icon",
       "components/icon-only-button",
+      "components/level-badge",
       "components/link",
       "components/link-list",
       "components/login-link",
