@@ -8464,6 +8464,124 @@
       }
     }
   },
+  "components/nlds/status-badge": {
+    "todo": {
+      "status-badge": {
+        "font-size": {
+          "$type": "fontSizes",
+          "$value": "{nlds.typography.font-size.sm}"
+        },
+        "line-height": {
+          "$type": "lineHeights",
+          "$value": "{utrecht.document.line-height}"
+        },
+        "font-weight": {
+          "$type": "fontWeights",
+          "$value": "{nlds.document.strong.font-weight}"
+        },
+        "font-family": {
+          "$type": "fontFamilies",
+          "$value": "{utrecht.document.font-family}"
+        }
+      }
+    },
+    "nlds": {
+      "status-badge": {
+        "border-width": {
+          "$type": "borderWidth",
+          "$value": "{nlds.border-width.sm}"
+        },
+        "border-radius": {
+          "$type": "borderRadius",
+          "$value": "{nlds.border-radius.sm}"
+        },
+        "padding-inline": {
+          "$type": "spacing",
+          "$value": "{nlds.space.inline.ant}"
+        },
+        "padding-block": {
+          "$type": "spacing",
+          "$value": "{nlds.space.block.flea}"
+        },
+        "informative": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{utrecht.alert.info.background-color}"
+          },
+          "border-color": {
+            "$type": "color",
+            "$value": "transparent"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{nlds.feedback.informative.color}"
+          }
+        },
+        "positive": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{utrecht.alert.ok.background-color}"
+          },
+          "border-color": {
+            "$type": "color",
+            "$value": "transparent"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{nlds.feedback.positive.color}"
+          }
+        },
+        "negative": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{nlds.feedback.negative.background-color}"
+          },
+          "border-color": {
+            "$type": "color",
+            "$value": "transparent"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{nlds.feedback.negative.color}"
+          }
+        },
+        "warning": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{utrecht.feedback.warning.background-color}"
+          },
+          "border-color": {
+            "$type": "color",
+            "$value": "transparent"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{utrecht.feedback.warning.color}"
+          }
+        },
+        "background-color": {
+          "$type": "color",
+          "$value": "{nlds.color.paars.100}"
+        },
+        "border-color": {
+          "$type": "color",
+          "$value": "transparent"
+        },
+        "icon-size": {
+          "$type": "sizing",
+          "$value": "{nlds.size.icon.sm}"
+        },
+        "color": {
+          "$type": "color",
+          "$value": "{utrecht.document.color}"
+        },
+        "gap": {
+          "$type": "spacing",
+          "$value": "{nlds.space.block.flea}"
+        }
+      }
+    }
+  },
   "components/step-marker": {
     "denhaag": {
       "step-marker": {
@@ -9463,6 +9581,7 @@
       "components/side-nav",
       "components/skip-link",
       "components/status-badge",
+      "components/nlds/status-badge",
       "components/step-marker",
       "components/switch",
       "components/table",
