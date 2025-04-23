@@ -5461,7 +5461,7 @@
         },
         "subheading": {
           "color": {
-            "value": "{nlds.color.paars.800}",
+            "value": "{nlds.color.neutral.900}",
             "type": "color"
           },
           "font-weight": {
