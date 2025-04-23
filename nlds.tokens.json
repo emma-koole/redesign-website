@@ -6864,7 +6864,7 @@
           }
         },
         "background-color": {
-          "value": "{nlds.color.paars.900}",
+          "value": "{nlds.color.neutral.900}",
           "type": "color"
         },
         "text": {
