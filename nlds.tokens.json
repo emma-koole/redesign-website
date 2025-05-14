@@ -4028,11 +4028,11 @@
           "type": "sizing"
         },
         "padding-block": {
-          "value": "None",
+          "value": "{nlds.space.inline.ant}",
           "type": "spacing"
         },
         "padding-inline": {
-          "value": "{nlds.space.inline.ant}",
+          "value": "{nlds.space.inline.beetle}",
           "type": "spacing"
         }
       }
