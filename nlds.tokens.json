@@ -4028,11 +4028,11 @@
           "type": "sizing"
         },
         "padding-block": {
-          "value": "{nlds.space.inline.ant}",
+          "value": "None",
           "type": "spacing"
         },
         "padding-inline": {
-          "value": "{nlds.space.inline.beetle}",
+          "value": "{nlds.space.inline.ant}",
           "type": "spacing"
         }
       }
@@ -6293,6 +6293,18 @@
           "border-radius": {
             "value": "{nlds.border-radius.sm}",
             "type": "borderRadius"
+          },
+          "padding-inline": {
+            "value": "{nlds.space.inline.mouse}",
+            "type": "spacing"
+          },
+          "column-gap": {
+            "value": "{nlds.space.column.snail}",
+            "type": "spacing"
+          },
+          "padding-block": {
+            "value": "{nlds.space.block.mouse}",
+            "type": "spacing"
           }
         },
         "background-color": {
@@ -6314,22 +6326,6 @@
             "style": "solid"
           },
           "type": "border"
-        }
-      },
-      "navigaton-bar": {
-        "list-item": {
-          "padding-inline": {
-            "value": "{nlds.space.inline.mouse}",
-            "type": "spacing"
-          },
-          "column-gap": {
-            "value": "{nlds.space.column.snail}",
-            "type": "spacing"
-          },
-          "padding-block": {
-            "value": "{nlds.space.block.mouse}",
-            "type": "spacing"
-          }
         },
         "row-gap": {
           "value": "{nlds.space.row.rat}",
