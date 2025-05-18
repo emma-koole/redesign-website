@@ -234,7 +234,7 @@
             "type": "color"
           },
           "accent": {
-            "value": "#ffd800",
+            "value": "#fcd940",
             "type": "color"
           }
         },
@@ -1619,7 +1619,7 @@
             "type": "color"
           },
           "color": {
-            "value": "{nlds.color.neutral.4}",
+            "value": "{nlds.color.neutral.accent}",
             "type": "color"
           }
         },
@@ -1682,7 +1682,7 @@
           },
           "community": {
             "background-color": {
-              "value": "{nlds.color.paars.5}",
+              "value": "{nlds.color.paars.accent}",
               "type": "color"
             },
             "border-color": {
@@ -1695,7 +1695,7 @@
             },
             "hover": {
               "background-color": {
-                "value": "{nlds.color.paars.4}",
+                "value": "{nlds.color.paars.5}",
                 "type": "color"
               },
               "border-color": {
@@ -1835,7 +1835,7 @@
             },
             "active": {
               "background-color": {
-                "value": "{nlds.color.groen.7}",
+                "value": "{nlds.color.groen.6}",
                 "type": "color"
               },
               "border-color": {
