@@ -426,51 +426,51 @@
         },
         "oranje": {
           "1": {
-            "value": "#fffbf8",
+            "value": "#fef1e7",
             "type": "color"
           },
           "2": {
-            "value": "#FFF3EA",
+            "value": "#fce4d3",
             "type": "color"
           },
           "3": {
-            "value": "#FAD6BA",
+            "value": "#ffd0ae",
             "type": "color"
           },
           "4": {
-            "value": "#FBBB87",
+            "value": "#feba85",
             "type": "color"
           },
           "5": {
-            "value": "#F1A666",
+            "value": "#fa9a47",
             "type": "color"
           },
           "6": {
-            "value": "#E18C3C",
+            "value": "#ea8420",
             "type": "color"
           },
           "7": {
-            "value": "#CA7620",
+            "value": "#cd710b",
             "type": "color"
           },
           "8": {
-            "value": "#A86013",
+            "value": "#b36519",
             "type": "color"
           },
           "9": {
-            "value": "#8c5217",
+            "value": "#945418",
             "type": "color"
           },
           "10": {
-            "value": "#71451e",
+            "value": "#7f4919",
             "type": "color"
           },
           "11": {
-            "value": "#5f3a19",
+            "value": "#623a17",
             "type": "color"
           },
           "12": {
-            "value": "#4c2d13",
+            "value": "#4a2e17",
             "type": "color"
           },
           "accent": {
@@ -1723,7 +1723,7 @@
             },
             "active": {
               "background-color": {
-                "value": "{nlds.color.paars.500}",
+                "value": "{nlds.color.paars.6}",
                 "type": "color"
               },
               "border-color": {
