@@ -6300,17 +6300,17 @@
           },
           "active": {
             "background-color": {
-              "value": "{nlds.color.paars.100}",
+              "value": "{nlds.color.paars.2}",
               "type": "color"
             },
             "border-color": {
-              "value": "{nlds.color.paars.600}",
+              "value": "{nlds.color.paars.6}",
               "type": "color"
             }
           },
           "hover": {
             "background-color": {
-              "value": "{nlds.color.paars.600}",
+              "value": "{nlds.color.paars.6}",
               "type": "color"
             }
           },
@@ -6342,7 +6342,7 @@
               "type": "fontWeights"
             },
             "inactive": {
-              "value": "Regular",
+              "value": "{utrecht.document.font-weight}",
               "type": "fontWeights"
             }
           },
@@ -6400,7 +6400,7 @@
   },
   "components/side-nav/nlds": {
     "nlds": {
-      "navigation-bar": {
+      "side-nav": {
         "list-item": {
           "default": {
             "background-color": {
@@ -6410,17 +6410,23 @@
           },
           "active": {
             "background-color": {
-              "value": "{nlds.color.violet.200}",
+              "value": "{nlds.color.indigo.2}",
               "type": "color"
             },
             "border-color": {
-              "value": "{nlds.color.paars.600}",
+              "value": "{nlds.color.indigo.8}",
               "type": "color"
             }
           },
           "hover": {
             "background-color": {
-              "value": "{nlds.color.paars.600}",
+              "value": "{nlds.color.indigo.5}",
+              "type": "color"
+            }
+          },
+          "content": {
+            "color": {
+              "value": "{utrecht.document.color}",
               "type": "color"
             }
           },
@@ -6428,18 +6434,6 @@
             "background-color": {
               "value": "{nl.link.focus-visible.background-color}",
               "type": "color"
-            }
-          },
-          "content": {
-            "color": {
-              "active": {
-                "value": "{utrecht.document.color}",
-                "type": "color"
-              },
-              "default": {
-                "value": "{nlds.document.subtle.color}",
-                "type": "color"
-              }
             }
           },
           "content-inverse": {
@@ -6468,8 +6462,8 @@
           },
           "border-width": {
             "value": {
-              "color": "",
-              "width": "4px",
+              "color": "{nlds.color.indigo.8}",
+              "width": "6px",
               "style": "solid"
             },
             "type": "border"
@@ -6478,9 +6472,15 @@
             "value": "{nlds.border-radius.sm}",
             "type": "borderRadius"
           },
-          "padding-inline": {
-            "value": "{nlds.space.inline.mouse}",
-            "type": "spacing"
+          "level-1": {
+            "padding-inline-start": {
+              "value": "{nlds.space.inline.mouse}",
+              "type": "spacing"
+            },
+            "padding-inline-end": {
+              "value": "{nlds.space.inline.mouse}",
+              "type": "spacing"
+            }
           },
           "column-gap": {
             "value": "{nlds.space.column.snail}",
@@ -6489,6 +6489,16 @@
           "padding-block": {
             "value": "{nlds.space.block.mouse}",
             "type": "spacing"
+          },
+          "level-2": {
+            "padding-inline-start": {
+              "value": "{nlds.space.inline.pig}",
+              "type": "spacing"
+            },
+            "padding-inline-end": {
+              "value": "{nlds.space.inline.mouse}",
+              "type": "spacing"
+            }
           }
         },
         "background-color": {
@@ -6515,6 +6525,17 @@
           "value": "{nlds.space.row.rat}",
           "type": "spacing"
         }
+      },
+      "box-shadow": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "#fff",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow"
       }
     }
   },
