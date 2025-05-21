@@ -1271,11 +1271,11 @@
             "type": "color"
           },
           "background-color": {
-            "value": "{nlds.color.neutral.4}",
+            "value": "{nlds.color.indigo.2}",
             "type": "color"
           },
           "border-color": {
-            "value": "{nlds.color.neutral.8}",
+            "value": "{nlds.color.indigo.8}",
             "type": "color"
           },
           "color": {
@@ -1293,11 +1293,11 @@
             "type": "color"
           },
           "background-color": {
-            "value": "{nlds.color.neutral.2}",
+            "value": "{nlds.color.indigo.4}",
             "type": "color"
           },
           "border-color": {
-            "value": "{nlds.color.neutral.8}",
+            "value": "{nlds.color.indigo.8}",
             "type": "color"
           },
           "color": {
