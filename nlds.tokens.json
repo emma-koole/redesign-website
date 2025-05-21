@@ -2631,11 +2631,11 @@
         },
         "hover": {
           "background-color": {
-            "value": "{nlds.color.violet.100}",
+            "value": "{nlds.color.indigo.3}",
             "type": "color"
           },
           "border-color": {
-            "value": "{nlds.color.violet.500}",
+            "value": "{nlds.form-control.hover.border-color}",
             "type": "color"
           }
         },
@@ -5141,7 +5141,7 @@
             "type": "color"
           },
           "color": {
-            "value": "{nlds.color.oranje.10}",
+            "value": "{nlds.color.oranje.11}",
             "type": "color"
           }
         },
@@ -5155,7 +5155,7 @@
             "type": "color"
           },
           "color": {
-            "value": "{nlds.color.paars.10}",
+            "value": "{nlds.color.paars.11}",
             "type": "color"
           }
         },
@@ -5169,7 +5169,7 @@
             "type": "color"
           },
           "color": {
-            "value": "{nlds.color.blauw.10}",
+            "value": "{nlds.color.blauw.11}",
             "type": "color"
           }
         },
@@ -5183,7 +5183,7 @@
             "type": "color"
           },
           "color": {
-            "value": "{nlds.color.groen.10}",
+            "value": "{nlds.color.groen.11}",
             "type": "color"
           }
         },
