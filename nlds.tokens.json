@@ -2621,7 +2621,7 @@
       "card-as-link": {
         "default": {
           "background-color": {
-            "value": "{utrecht.document.background-color}",
+            "value": "{nlds.color.neutral.accent}",
             "type": "color"
           },
           "border-color": {
@@ -2668,7 +2668,7 @@
           },
           "default": {
             "color": {
-              "value": "{utrecht.heading.color}",
+              "value": "{nlds.interaction.color}",
               "type": "color"
             }
           },
