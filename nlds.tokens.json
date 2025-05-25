@@ -5210,7 +5210,7 @@
           "type": "textDecoration"
         },
         "text-decoration-color": {
-          "value": "{nlds.interaction.color}",
+          "value": "{utrecht.document.color}",
           "type": "color"
         },
         "text-decoration-thickness": {
