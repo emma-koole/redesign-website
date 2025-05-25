@@ -9670,17 +9670,17 @@
           },
           "active": {
             "background-color": {
-              "value": "{nlds.color.indigo.2}",
+              "value": "{nlds.color.paars.1}",
               "type": "color"
             },
             "border-color": {
-              "value": "{nlds.color.indigo.8}",
+              "value": "{nlds.color.paars.8}",
               "type": "color"
             }
           },
           "hover": {
             "background-color": {
-              "value": "{nlds.color.indigo.5}",
+              "value": "{nlds.color.paars.4}",
               "type": "color"
             }
           },
