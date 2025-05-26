@@ -1012,7 +1012,7 @@
     "utrecht": {
       "document": {
         "background-color": {
-          "value": "{nlds.color.white}",
+          "value": "{nlds.color.neutral.accent}",
           "type": "color"
         },
         "color": {
@@ -1056,7 +1056,7 @@
           "type": "fontWeights"
         },
         "background-color": {
-          "value": "{nlds.color.white}",
+          "value": "{nlds.color.neutral.accent}",
           "type": "color"
         },
         "border-color": {
@@ -1087,7 +1087,7 @@
         },
         "focus": {
           "background-color": {
-            "value": "{nlds.color.white}",
+            "value": "{nlds.color.neutral.accent}",
             "type": "color"
           },
           "border-color": {
@@ -1105,7 +1105,7 @@
         },
         "invalid": {
           "background-color": {
-            "value": "{nlds.color.white}",
+            "value": "{nlds.color.neutral.accent}",
             "type": "color"
           },
           "border-color": {
@@ -1193,7 +1193,7 @@
         },
         "inverse": {
           "outline-color": {
-            "value": "{nlds.color.white}",
+            "value": "{nlds.color.neutral.accent}",
             "type": "color"
           }
         },
@@ -1311,7 +1311,7 @@
         },
         "disabled": {
           "accent-color": {
-            "value": "# {nlds.color.neutral.8}",
+            "value": "{nlds.color.neutral.2}",
             "type": "color"
           }
         }
@@ -5802,7 +5802,7 @@
         "list-item": {
           "default": {
             "background-color": {
-              "value": "{nlds.color.white}",
+              "value": "{nlds.color.neutral.accent}",
               "type": "color"
             }
           },
@@ -5836,7 +5836,7 @@
           },
           "content-inverse": {
             "color": {
-              "value": "{nlds.color.white}",
+              "value": "{nlds.color.neutral.accent}",
               "type": "color"
             }
           },
@@ -5880,7 +5880,7 @@
           }
         },
         "background-color": {
-          "value": "{nlds.color.white}",
+          "value": "{nlds.color.neutral.accent}",
           "type": "color"
         },
         "border-color": {
