@@ -9664,7 +9664,7 @@
         "list-item": {
           "default": {
             "background-color": {
-              "value": "{nlds.color.white}",
+              "value": "{nlds.color.neutral.accent}",
               "type": "color"
             }
           },
