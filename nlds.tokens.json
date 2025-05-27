@@ -238,6 +238,56 @@
             "$value": "#fcd940"
           }
         },
+        "mint": {
+          "1": {
+            "$type": "color",
+            "$value": "#F9FEFD"
+          },
+          "2": {
+            "$type": "color",
+            "$value": "#F2FBF9"
+          },
+          "3": {
+            "$type": "color",
+            "$value": "#DDF9F2"
+          },
+          "4": {
+            "$type": "color",
+            "$value": "#C8F4E9"
+          },
+          "5": {
+            "$type": "color",
+            "$value": "#B3ECDE"
+          },
+          "6": {
+            "$type": "color",
+            "$value": "#9CE0D0"
+          },
+          "7": {
+            "$type": "color",
+            "$value": "#7ECFBD"
+          },
+          "8": {
+            "$type": "color",
+            "$value": "#4CBBA5"
+          },
+          "9": {
+            "$type": "color",
+            "$value": "#4b9d8c"
+          },
+          "10": {
+            "$type": "color",
+            "$value": "#4b8b7d"
+          },
+          "11": {
+            "$type": "color",
+            "$value": "#48786d"
+          },
+          "12": {
+            "$type": "color",
+            "$value": "#415d57"
+          }
+        },
         "light": {
           "alpha": {
             "50": {
